@@ -17,4 +17,24 @@ Passaggi
 4)Collegare il cognome all'utente id per renderlo visibile 
 5)Chiedere all'utente il suo colore preferito e salvarlo 
 6)Collegare il cognome all'utente id per renderlo visibile 
+
 */
+
+//Variabili
+
+const name = prompt ("Come ti chiami ?");
+
+
+const lastname = prompt ("Qual è il tuo cognome");
+
+
+const favoriteColor = prompt ("Qual è il tuo colore preferito");
+
+const u_info = `
+${name}   ${lastname}   ${favoriteColor}
+`;
+
+document.getElementById("user_info").innerHTML = u_info;
+
+
+
